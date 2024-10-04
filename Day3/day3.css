@@ -1,0 +1,47 @@
+button
+{
+    background: #1092B4;
+    color:#ffff
+}
+#para1
+{
+    color:#2F8D59
+}
+#para2
+{
+    color: #006792;
+}
+.content
+{
+    color:#006792;
+    background: #9CDFBE;
+}
+div
+{
+    width:300px;
+    height: 200px;
+    background:#9CDFBE;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-left:30px;
+    padding-top:40px;
+    border:5px solid;
+    border-color:#006792;
+    padding-right: 30px;
+}
+.colors
+{
+    color:#1092B4;
+}
+.box
+{
+    margin-left:100px;
+    padding-left:50px;
+    padding-right:50px
+}
+.inner-div
+{
+    margin:10px;
+    width:200px;
+    height:100px;
+}

@@ -1,0 +1,35 @@
+.header
+{
+    width:100%;
+    background: #c6f4ef;
+    height:150px;
+}
+.left-section
+{
+    width:20%;
+    float:left;
+    height:400px;
+    background: #82d1e7;
+}
+.right-section
+{
+    width:80%;
+    float:left;
+    height:400px;
+    background: #88d9c0;
+}
+.footer
+{
+    width:100%;
+    height:150px;
+    background: #6ac59c;
+
+}
+.content
+{
+    height:400px;
+}
+body
+{
+    margin:0;
+}
