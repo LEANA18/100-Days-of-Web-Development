@@ -1,0 +1,170 @@
+.header
+{
+    background: #3b5998;
+    width:100%;
+    height:85px
+}
+body
+{
+    margin:0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.logo
+{
+    width:50%;
+    padding-top: 32px;
+    float: left;
+}
+.login
+{
+    width:50%;
+    float: left;
+    padding-top: 10px;
+}
+.text-logo
+{
+    color:#ffff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 170px;
+}
+.login-label
+{
+    color: #ffff;
+    font-size: 11px;
+    
+}
+.login-controls
+{
+    margin-left:115px;
+}
+.forgot
+{
+    color:#9CB4D8;
+    font-size: 11px;
+    text-decoration: none;
+}
+.login-button
+{
+    background: #4267b2;
+    color: #ffff;
+    height:20px;
+    border-color:#29487d;
+    cursor:pointer;
+}
+.login-button:hover
+{
+    background: #3b5998;
+}
+.left-section
+{
+    width:50%;
+    float:left;
+    padding-left: 134px;
+    padding-top: 52px;
+}
+.right-section
+{
+    width: 39%;
+    float:left;
+    
+
+}
+.main-body
+{
+    background: linear-gradient(white,#D3D8E8);
+    width:100%;
+    height:600px;
+}
+.image
+{
+    width: 581px;
+}
+.para
+{
+    font-weight: bold;
+    font-size: 21px;
+}
+.right-input
+{
+    height: 34px;
+    width:200px;
+    border-radius:5px;
+    font-size: 15px;
+    border-color: #ffff;
+    margin-top: 10px;
+}
+.input-box
+{
+    height: 34px;
+    width:412px;
+    margin-top: 10px;
+    border-radius:5px;
+    font-size: 15px;
+    border-color: #ffff;
+}
+.select-section
+{
+    border-color: #ffff;
+    height: 28px;
+    margin-bottom: -7px;
+}
+.text-color
+{
+    color:#8e93a2;
+    margin-bottom: 5px;
+}
+.radio-style
+{
+    margin-top: 10px;
+}
+#note
+{
+    color:gray;
+    font-size: 12px;
+}
+
+.button
+{
+    background:green;
+    color:white;
+    border-color: gray solid;
+    font-weight: bold;
+    width: 250px;
+    height:40px;
+    border-radius: 5px;
+    font-size:18px;
+    cursor:pointer
+  
+}
+.footer
+{
+    background:white;
+    width:100%;
+    height:80px;
+    top:700px;
+    left:0px;
+    position: absolute;
+}
+#footer-child
+{
+    width:900px;
+	top:15px;
+	left:200px;
+	color:gray;
+	height:60px;
+    font-size: 12px;
+    padding-left: 426px;
+}
+.footer-child2
+{
+    width:100%;
+	top:15px;
+	left:200px;
+	color:gray;
+	height:60px;
+    font-size: 12px;
+    
+}
