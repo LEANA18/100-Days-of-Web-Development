@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button onclick="display()">Submit</button>
+    <h1 id="display-input"></h1>
+    <script>
+        function display()
+        {
+            var text=document.getElementById("inp").value
+            document.getElementById("display-input").innerHTML=text
+            if(text=="Crossroads")
+            {
+                alert("You are great!")
+            }
+      
+        }
+
+    </script>
+</body>
+</html>

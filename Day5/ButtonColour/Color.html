@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #screen
+    {
+        width:300px;
+        height:300px;
+        border:solid 1px;
+    }
+    .button-style
+    {
+        margin-top:10px;
+    }
+</style>
+<body>
+    <div id="screen">
+
+    </div>
+    <button class="button-style" onclick="color('red')">Red</button>
+    <button class="button-style" onclick="color('green')">Green</button>
+    <button class="button-style" onclick="color('orange')">Orange</button>
+    <button class="button-style" onclick="color('yellow')">Yellow</button>
+    <script>
+        function color(paint)
+        {
+            document.getElementById("screen").style.background=paint
+        }
+    </script>
+</body>
+</html>
