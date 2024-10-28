@@ -12,7 +12,7 @@ function addTask() {
         span.innerHTML = "\u00d7";
         li.append(span);
     }
-    inputBox.value = ''; 
+    inputBox.value = ''; // clears the input box after adding the task
     saveData();
 }
 listContainer.addEventListener("click",function(e){
