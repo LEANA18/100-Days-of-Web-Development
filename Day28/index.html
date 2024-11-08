@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Slider</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <h1>Customer reviews</h1>
+        <div class="review-box">
+            <div id="slide">
+                <div class="card">
+                    <div class="profile">
+                        <img src="Person1.jpg">
+                        <div>
+                            <h3>Greta Susan</h3>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                    <p>Great company to work with, I use them for a lot more than just building a website. It’s almost as if they are an employee. Thrive is a company you can really trust. They handle my PHP development work, web design, web hosting and search engine optimization.</p>
+                </div>
+                <div class="card">
+                    <div class="profile">
+                        <img src="Person2.jpg">
+                        <div>
+                            <h3>Steve McCurry</h3>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                    <p>Designing an effective review system demands a holistic approach that is mindful of the needs of consumers, feedback givers, and receivers. By prioritizing simple design principles like trust, transparency, timing, motivation, safety, and privacy, we can create user experiences that not only inform decisions but also foster a sense of community and reliability.</p>
+                </div>
+                <div class="card">
+                    <div class="profile">
+                        <img src="Person3.jpg">
+                        <div>
+                            <h3>Merlyn Rachel</h3>
+                            <p>Senior Developer</p>
+                        </div>
+                    </div>
+                    <p>Working with Company has been an absolute pleasure. Their team of skilled professionals is not only knowledgeable in their field but also dedicated to providing top-notch service and support.</p>
+                </div>
+                <div class="card">
+                    <div class="profile">
+                        <img src="Person4.jpg">
+                        <div>
+                            <h3>John Williams</h3>
+                            <p>Team Lead</p>
+                        </div>
+                    </div>
+                    <p>A massive thank you for all of your help collecting the data points and the content for the board meeting. I was really pleased with how the presentation landed and hung together. It wouldn't have been as slick if it wasn't for your assistance and input. Thank you!</p>
+                </div>
+                
+            </div>
+            <div class="slide-bar">
+                <img src="up-arrow.png" id="upArrow">
+                <img src="down-arrow.png" id="downArrow">
+            </div>
+        </div>
+    </div>
+    <script>
+        var slide=document.getElementById("slide");
+        var upArrow=document.getElementById("upArrow");
+        var downArrow=document.getElementById("downArrow");
+        let x=0;
+       
+        upArrow.onclick = function(){
+            if(x>"-900"){
+                x=x-300;
+                slide.style.top=x+"px";
+        }
+           
+        }
+        downArrow.onclick = function(){
+            if(x<0){
+                x=x+300;
+                slide.style.top=x+"px";
+        }
+           
+        }
+    </script>
+</body>
+</html>
